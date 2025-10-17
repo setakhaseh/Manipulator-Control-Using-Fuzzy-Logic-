@@ -17,15 +17,6 @@ The manipulator is controlled autonomously to perform tasks such as reaching a t
 - The robot arm interacts with objects and obstacles in a configurable workspace.
 - Sensor data from Webots (e.g., joint angles, velocities, distances) are fed to the fuzzy controller.
 
-## File Structure
-- `controller_basic.py` – Phase 1 fuzzy controller.
-- `controller_additional.py` – Phase 2 fuzzy controller for obstacles.
-- `controller_advanced.py` – Phase 3 advanced fuzzy controller.
-- `rule_additional.txt` – Fuzzy rules for Phase 2.
-- `rule_advanced.txt` – Fuzzy rules for Phase 3.
-- `notebooks/` – Optional Jupyter notebooks for testing and visualization.
-- `data/` – Any sample data or scenarios used for testing.
-
 ## How to Run
 1. Install Webots and required Python packages.
 2. Load the robot manipulator environment in Webots.
